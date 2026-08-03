@@ -1,3 +1,4 @@
+<!-- GitHub profile README — Muh Al Haikal (NIM 105841118623) -->
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/Ekalyptuss/Ekalyptuss/main/assets/header.svg" width="100%" alt="Muh Al Haikal — Artificial Intelligence" />
