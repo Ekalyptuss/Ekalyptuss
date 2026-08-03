@@ -1,0 +1,43 @@
+<svg width="1000" height="150" viewBox="0 0 1000 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1000" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05060f"/>
+      <stop offset="0.5" stop-color="#0a0d1f"/>
+      <stop offset="1" stop-color="#05060f"/>
+    </linearGradient>
+    <linearGradient id="fneon" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00f7f7"/>
+      <stop offset="0.5" stop-color="#8a2be2"/>
+      <stop offset="1" stop-color="#ff00ff"/>
+    </linearGradient>
+    <filter id="fglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="fgrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#121a32" stroke-width="1" fill="none"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="150" fill="url(#fbg)"/>
+  <rect width="1000" height="150" fill="url(#fgrid)" opacity="0.8"/>
+
+  <!-- neural pulse waveform (base) -->
+  <path id="wave" d="M0 70 H170 L192 36 L212 106 L232 70 H430 L452 24 L472 112 L492 70 H720 L742 42 L762 96 L782 70 H1000" stroke="#223055" stroke-width="1.5" fill="none"/>
+  <!-- energy comet traveling the waveform -->
+  <path d="M0 70 H170 L192 36 L212 106 L232 70 H430 L452 24 L472 112 L492 70 H720 L742 42 L762 96 L782 70 H1000" stroke="url(#fneon)" stroke-width="2.5" fill="none" filter="url(#fglow)" stroke-linecap="round" stroke-dasharray="80 1360">
+    <animate attributeName="stroke-dashoffset" values="1440;0" dur="3.2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- caption -->
+  <text x="500" y="134" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" letter-spacing="3" fill="#7ee7e7">&#171; train_hard() // deploy_easy() &#187;</text>
+  <text x="980" y="134" text-anchor="end" font-family="'Courier New', monospace" font-size="11" fill="#2b3a5e">EOF</text>
+
+  <!-- HUD corner brackets -->
+  <g stroke="#00f7f7" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M12 30 L12 10 L32 10"/>
+    <path d="M968 10 L988 10 L988 30"/>
+    <path d="M988 120 L988 140 L968 140"/>
+    <path d="M32 140 L12 140 L12 120"/>
+  </g>
+</svg>
