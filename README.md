@@ -32,7 +32,7 @@ class MuhAlHaikal(nn.Module):
         self.nim        = "105841118623"
         self.university = "Universitas Muhammadiyah Makassar"
         self.base       = "Makassar, Indonesia 🇮🇩"
-        self.focus      = ["Deep Learning", "Computer Vision", "HPC"]
+        self.focus      = ["Computer Networks", "Network Security", "Deep Learning"]
         self.side_quest = ["Web Development", "Cloud Computing"]
 
     def forward(self, coffee, data):
@@ -61,12 +61,12 @@ haikal.train()   # ⚠️ permanently stuck in training mode
 <td>
 
 ```text
-██████╗  ██████╗    ████████╗███████╗██████╗ ██████╗ ███████╗
-██╔══██╗██╔════╝    ╚══██╔══╝██╔════╝██╔══██╗██╔══██╗██╔════╝
-██║  ██║██║  ███╗      ██║   █████╗  ██║  ██║██║  ██║█████╗  
-██║  ██║██║   ██║      ██║   ██╔══╝  ██║  ██║██║  ██║██╔══╝  
-██████╔╝╚██████╔╝██╗   ██║   ███████╗██████╔╝██████╔╝███████╗
-╚═════╝  ╚═════╝ ╚═╝   ╚═╝   ╚══════╝╚═════╝ ╚═════╝ ╚══════╝
+███████╗██╗  ██╗ █████╗ ██╗     ██╗   ██╗██████╗ ████████╗██╗   ██╗███████╗
+██╔════╝██║ ██╔╝██╔══██╗██║     ╚██╗ ██╔╝██╔══██╗╚══██╔══╝██║   ██║██╔════╝
+█████╗  █████╔╝ ███████║██║      ╚████╔╝ ██████╔╝   ██║   ██║   ██║███████╗
+██╔══╝  ██╔═██╗ ██╔══██║██║       ╚██╔╝  ██╔═══╝    ██║   ██║   ██║╚════██║
+███████╗██║  ██╗██║  ██║███████╗   ██║   ██║        ██║   ╚██████╔╝███████║
+╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═╝        ╚═╝    ╚═════╝ ╚══════╝
 
 >      mounting /dev/coffee ...... [ OK ] ☕ mandatory daily fuel
 ```
