@@ -47,7 +47,7 @@ haikal.train()   # ⚠️ permanently stuck in training mode
 </td>
 <td width="400" align="center" valign="middle">
 
-<img src="https://raw.githubusercontent.com/Ekalyptuss/Ekalyptuss/main/assets/portrait-scan.svg" width="340" alt="Muh Al Haikal — biometric scan" />
+<img src="https://raw.githubusercontent.com/Ekalyptuss/Ekalyptuss/main/assets/portrait-scan.svg?v=2" width="340" alt="Muh Al Haikal — biometric scan" />
 
 <sub><samp>&gt; biometric_scan.exe — identity verified ✓</samp></sub>
 
