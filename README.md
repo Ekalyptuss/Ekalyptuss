@@ -12,6 +12,8 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--8599--8909-0D1117?style=for-the-badge&logo=orcid&logoColor=A6CE39)](https://orcid.org/0009-0009-8599-8909)
 [![Scopus](https://img.shields.io/badge/SCOPUS-61056197200-0D1117?style=for-the-badge&logo=elsevier&logoColor=FF6C00)](https://www.scopus.com/authid/detail.uri?authorId=61056197200)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/muh-al-haikal-3b48b8447)
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-@ekallyp-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://www.instagram.com/ekallyp)
+[![Gmail](https://img.shields.io/badge/EMAIL-haikals1230@gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:haikals1230@gmail.com)
 ![NIM](https://img.shields.io/badge/NIM-105841118623-0D1117?style=for-the-badge&logo=googlescholar&logoColor=00F7F7)
 ![University](https://img.shields.io/badge/UNISMUH-MAKASSAR-0D1117?style=for-the-badge&logo=academia&logoColor=8A2BE2)
 
