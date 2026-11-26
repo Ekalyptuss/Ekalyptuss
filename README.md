@@ -9,10 +9,42 @@
 [![Followers](https://img.shields.io/github/followers/Ekalyptuss?label=FOLLOWERS&style=flat-square&logo=github&color=8A2BE2)](https://github.com/Ekalyptuss?tab=followers)
 
 [![GitHub](https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/Ekalyptuss)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0009--8599--8909-0D1117?style=for-the-badge&logo=orcid&logoColor=A6CE39)](https://orcid.org/0009-0009-8599-8909)
+[![Scopus](https://img.shields.io/badge/SCOPUS-61056197200-0D1117?style=for-the-badge&logo=elsevier&logoColor=FF6C00)](https://www.scopus.com/authid/detail.uri?authorId=61056197200)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/muh-al-haikal-3b48b8447)
 ![NIM](https://img.shields.io/badge/NIM-105841118623-0D1117?style=for-the-badge&logo=googlescholar&logoColor=00F7F7)
 ![University](https://img.shields.io/badge/UNISMUH-MAKASSAR-0D1117?style=for-the-badge&logo=academia&logoColor=8A2BE2)
 
 </div>
+
+## <samp>RESEARCH_PROFILE — abstract.txt</samp>
+
+Research-oriented **Computer Science** undergraduate at **Universitas Muhammadiyah Makassar** working at the
+intersection of **artificial intelligence, cybersecurity, and interdisciplinary data science**. I apply machine
+learning (Random Forest, DBSCAN, Isolation Forest, PCA) to intrusion detection and IP reputation scoring for edge
+firewalls, climate-driven disease outbreak detection, agroclimatic risk zoning, and spatio-temporal environmental
+analysis. Next goal: a **Master's degree in Informatics in Australia**.
+
+### 📄 Publications
+
+| Year | Paper | Venue |
+|---|---|---|
+| 2026 | [Data-driven agroclimatic risk zoning for maize cultivation in Indonesia using long-term daily climate indicators](https://doi.org/10.19101/IJATEE.2026.131340640) | *Int. J. of Advanced Technology and Engineering Exploration* (Scopus) |
+| 2026 | [Climate-Driven Disease Outbreak Anomaly Detection Using PCA, DBSCAN, and Isolation Forest](https://doi.org/10.30736/jti.v11i02.1674) | *Joutica* |
+
+More manuscripts are under review in Scopus-indexed Q1/Q2 journals.
+
+### 🔬 Research Lines
+
+- **Cybersecurity:** intrusion detection & IP reputation scoring for edge firewalls (Random Forest + DBSCAN, simulation-based evaluation)
+- **Climate & public health:** unsupervised anomaly detection for climate-driven dengue surveillance
+- **Environmental data science:** spatio-temporal analysis of particulate matter exposure across Indonesian provinces, agroclimatic risk zoning
+
+### 🏆 Honors & Certifications
+
+- 🥇 **Overall Champion (Rank 1)** for three consecutive academic years
+- 🥉 **3rd Place**, national Story Telling Competition *"Perkembangan Industri 4.0 Era Milenial"*, Orbit Ilmiah XI
+- 🛩️ **Technical Competency Certification**, Airframe & Powerplant, Wing 5 Lanud Sultan Hasanuddin, Skadron Udara 5
 
 ## <samp>NEURAL_CORE — whoami.py</samp>
 
@@ -32,7 +64,8 @@ class MuhAlHaikal(nn.Module):
         self.nim        = "105841118623"
         self.university = "Universitas Muhammadiyah Makassar"
         self.base       = "Makassar, Indonesia 🇮🇩"
-        self.focus      = ["Computer Networks", "Network Security", "Deep Learning"]
+        self.focus      = ["Artificial Intelligence", "Cybersecurity", "Data Science"]
+        self.research   = ["Intrusion Detection", "Climate & Health Anomalies", "Spatio-temporal Analysis"]
         self.side_quest = ["Web Development", "Cloud Computing"]
 
     def forward(self, coffee, data):
